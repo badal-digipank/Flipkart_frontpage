@@ -1,0 +1,239 @@
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; 
+         height:920px;
+         width:100%}
+.item3 { grid-area: main; 
+         height:920px;
+          width:1724px;
+        }
+/* .item4 { grid-area: right;
+    height:700px;
+    width:100%
+} */
+
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main right right'
+    'menu footer footer footer footer footer';
+  grid-gap: 5px;
+  background-color: lightgrey;
+  
+}
+
+.grid-container > div {
+  background-color: white;
+  text-align: center;
+  padding: 10px 0; 
+  font-size: 15px;
+}
+.header{
+    background-color: #2874f0;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.header_first{
+    padding-right:-100px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding-left:120px;
+}
+.header_first > img{
+ width:75px;
+ object-fit:contain;
+}
+.header_second{
+    display:flex;
+    align-items: center;
+    background-color: white;
+    border-radius:3px;
+}
+.header_second >input{
+    border:none;
+    outline:none;
+    width: 36vw;
+    padding:10px 15px;
+}
+.header_second>.MuiSvgIcon-root{
+    color:#2874f0;
+    padding:5px;
+    font-size:25px;
+
+}
+.header_third> button{
+ border:none;
+ outline:none;   
+color:#2874f0;
+width:9vw;
+font-weight:bold;
+font-size:15px;
+cursor:pointer;
+padding:7px;
+}
+.header_four{
+display:flex;
+align-items: center;
+cursor:pointer;
+
+}
+.header_four >span{
+    color:white;
+    font-weight:600;
+    size:bold;    
+}
+.header_four> .MuiSvgIcon-root{
+    color:white;
+}
+
+.header_five{
+    display:flex;
+    align-items: center;
+    cursor:pointer;
+    padding-right: 165px;
+    }
+.header_five> .MuiSvgIcon-root{
+        color:white;
+    }
+
+ .header_five>span{
+ color:white;
+ font-weight: bold;
+ }
+ .header2{
+    display: flex;
+    background-color: white;
+    align-items: center;
+    padding-left:180px;  
+    
+}
+.header2_one{
+    display:flex;
+    align-items: center;
+    padding-right:65px;
+    
+}
+.header2_two{
+    display:flex;
+    align-items: center;
+    padding-right:65px;
+}
+.header2_three{
+    display:flex;
+    align-items: center;
+    padding-right:65px;
+}
+.header2_four{
+    display:flex;
+    align-items: center;
+    padding-right:65px;
+}
+.header2_five{
+    display:flex;
+    align-items: center;
+    padding-right:65px;
+}
+.header2_six{
+    display:flex;
+    align-items: center;
+    padding-right:65px;
+}
+.header2_seven{
+    display:flex;
+    align-items: center;
+    padding-right:65px;
+}
+.header2_eight{
+    display:flex;
+    align-items: center;
+    padding-right:65px;
+}
+.header2_nine{
+    display:flex;
+    align-items: center;
+    
+}
+.leftcorner{
+    display: flex;
+  flex-direction:column;
+    align-items: left;
+    justify-content: space-evenly;
+    text-align: left;
+    margin-left:10px;
+}
+.leftcorner>div{
+    flex-direction:column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+ .main{
+     display:flex;
+     flex-direction:column;
+ }  
+
+ .mobile1{
+    display:flex;
+    flex-direction:row;
+    padding-left: 80px;
+    margin-top: 20px;
+
+}
+
+.mainfront{
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+}
+.mainflex{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    padding-bottom: 4px;
+
+}
+.mainflex>div{
+    padding-right:10px;
+}
+.specification{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    
+}
+.specification>div{
+    padding-left:100px;
+
+} 
+.price > div{
+    padding-left:300px;
+    padding-right:0px;
+}
+.smargin{
+    margin-left:20px;
+}
+.smargin>div{
+    padding-bottom:10px;
+}
+.paddingleft{
+    padding-bottom:10px;
+}
+/* .leftsides{
+    display:flex;
+        flex-direction:row;
+        
+        
+        
+}  */
+/* .leftsides>span{
+    display:flex;
+    flex-direction:row;
+    /* align-items:center;
+    padding-right:5px; */
+*/
+.leftsides>span>input{
+    border:none;
+       outline:none;
+}
